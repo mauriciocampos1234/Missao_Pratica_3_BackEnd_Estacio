@@ -1,0 +1,6 @@
+Concedendo Permissões no BD
+
+GRANT ALL PRIVILEGES ON TABLE pessoa TO loja;
+GRANT ALL PRIVILEGES ON TABLE pessoa_fisica TO loja;
+GRANT ALL PRIVILEGES ON TABLE pessoa_juridica TO loja;
+GRANT USAGE, SELECT ON SEQUENCE seq_pessoa_id TO loja;
